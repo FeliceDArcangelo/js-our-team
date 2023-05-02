@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 1em;
+}
+
+.card{
+    max-width: calc((100% - 4em) / 3);
+    min-width: 165px;
+  
+}
+
+.card img{
+    width: 100%;
+    object-fit: cover;
+}
